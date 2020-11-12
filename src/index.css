@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  background-color: cornsilk;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu",
+    "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+.reviews-container {
+  margin: 3rem auto;
+  text-align: center;
+}
+.reviews-container .underline {
+  width: 80px;
+  content: "";
+  height: 6px;
+  margin: auto;
+  background-color: rgba(72, 72, 255, 0.568);
+}
+.reviews-container .review {
+  background-color: #fff;
+  border-radius: 5;
+  width: 50%;
+  padding: 2em 0em;
+  margin: 1.8em auto;
+  -webkit-box-shadow: 8px 10px 31px 0px rgba(0, 0, 0, 0.19);
+  box-shadow: 8px 10px 31px 0px rgba(0, 0, 0, 0.19);
+}
+.btn {
+  cursor: pointer;
+  margin: 1em;
+  font-size: 1.4em;
+  transition: 0.2s ease-in-out;
+  padding: 0.6em;
+}
+.btn:hover {
+  background-color: blanchedalmond;
+}
+.reviews-container h2 {
+  font-size: 1.8em;
+  color: rgba(0, 0, 0, 0.699);
+}
+.reviews-container .image-container {
+}
+.reviews-container .image-container .quote-container {
+  position: relative;
+  width: 150px;
+  margin: auto;
+}
+.reviews-container .image-container .quote {
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #fff;
+  font-size: 1.8em;
+  display: block;
+  padding: 0.2em;
+  border-radius: 50%;
+  background-color: rgba(72, 72, 255, 0.8);
+  z-index: 11;
+}
+.reviews-container img {
+  user-select: none;
+  border-radius: 50%;
+  z-index: 10;
+  position: relative;
+}
+.reviews-container .image-circle {
+  position: relative;
+}
+.reviews-container .image-circle div {
+  position: absolute;
+  z-index: 1;
+  width: 128px;
+  height: 128px;
+  border-radius: 50%;
+  top: -3px;
+  left: 43%;
+  background-color: rgba(72, 72, 255, 0.8);
+}
+
+.reviews-container h3 {
+  user-select: none;
+  font-size: 1.2em;
+  letter-spacing: 0.1em;
+}
+.reviews-container h6 {
+  user-select: none;
+  font-weight: 400;
+  font-size: 0.9em;
+  color: rgb(78, 155, 255);
+}
+.reviews-container p {
+  user-select: none;
+  width: 60%;
+  margin: auto;
+  font-size: 1.2em;
+  margin-top: 1.8em;
+  color: rgba(104, 104, 241, 0.8);
+  height: 80px;
+  overflow: auto;
+}
+.random-review {
+  padding: 0.4em;
+  color: rgba(72, 72, 255);
+  margin: auto;
+  outline: none;
+  user-select: none;
+}
