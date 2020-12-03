@@ -32,7 +32,7 @@ const Request = () => {
         setIsLoading(false)
         setIsError(true)
       })
-  }, [])
+  }, [isError])
 
   if (isLoading) {
     return "Loading..."
